@@ -1,0 +1,24 @@
+{
+	"name": "triggerSchedule",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "01-Activity-DopyData",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2024-09-11T17:44:00",
+				"timeZone": "Central European Standard Time"
+			}
+		}
+	}
+}
